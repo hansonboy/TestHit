@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB87DE651CF9341900EF89B0 /* RightArrowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CB87DE641CF9341900EF89B0 /* RightArrowButton.m */; };
+		CB87DE671CF9343600EF89B0 /* RightArrowButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB87DE661CF9343600EF89B0 /* RightArrowButton.xib */; };
 		CBC4E6881CF7CA8C00B9D6AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC4E6871CF7CA8C00B9D6AA /* main.m */; };
 		CBC4E68B1CF7CA8D00B9D6AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC4E68A1CF7CA8D00B9D6AA /* AppDelegate.m */; };
 		CBC4E68E1CF7CA8D00B9D6AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC4E68D1CF7CA8D00B9D6AA /* ViewController.m */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB87DE631CF9341900EF89B0 /* RightArrowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightArrowButton.h; sourceTree = "<group>"; };
+		CB87DE641CF9341900EF89B0 /* RightArrowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightArrowButton.m; sourceTree = "<group>"; };
+		CB87DE661CF9343600EF89B0 /* RightArrowButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightArrowButton.xib; sourceTree = "<group>"; };
 		CBC4E6831CF7CA8A00B9D6AA /* TestHit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestHit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBC4E6871CF7CA8C00B9D6AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBC4E6891CF7CA8C00B9D6AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +115,9 @@
 				CBC4E6941CF7CA8E00B9D6AA /* LaunchScreen.storyboard */,
 				CBC4E6971CF7CA8E00B9D6AA /* Info.plist */,
 				CBC4E6861CF7CA8C00B9D6AA /* Supporting Files */,
+				CB87DE631CF9341900EF89B0 /* RightArrowButton.h */,
+				CB87DE641CF9341900EF89B0 /* RightArrowButton.m */,
+				CB87DE661CF9343600EF89B0 /* RightArrowButton.xib */,
 			);
 			path = TestHit;
 			sourceTree = "<group>";
@@ -245,6 +253,7 @@
 			files = (
 				CBC4E6961CF7CA8E00B9D6AA /* LaunchScreen.storyboard in Resources */,
 				CBC4E6931CF7CA8E00B9D6AA /* Assets.xcassets in Resources */,
+				CB87DE671CF9343600EF89B0 /* RightArrowButton.xib in Resources */,
 				CBC4E6911CF7CA8D00B9D6AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +281,7 @@
 			files = (
 				CBC4E68E1CF7CA8D00B9D6AA /* ViewController.m in Sources */,
 				CBC4E68B1CF7CA8D00B9D6AA /* AppDelegate.m in Sources */,
+				CB87DE651CF9341900EF89B0 /* RightArrowButton.m in Sources */,
 				CBC4E6881CF7CA8C00B9D6AA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +506,7 @@
 				CBC4E6B21CF7CA9100B9D6AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBC4E6B31CF7CA9100B9D6AA /* Build configuration list for PBXNativeTarget "TestHitTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +515,7 @@
 				CBC4E6B51CF7CA9100B9D6AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBC4E6B61CF7CA9100B9D6AA /* Build configuration list for PBXNativeTarget "TestHitUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +524,7 @@
 				CBC4E6B81CF7CA9100B9D6AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
