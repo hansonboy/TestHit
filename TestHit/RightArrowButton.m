@@ -32,11 +32,11 @@
     NSLog(@"respond the event");
 }
 
-- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
-    
-    BOOL isContained = [self pointInside:point withEvent:event];
-    if (self.hidden || self.alpha <= 0.1 || self.userInteractionEnabled == NO || !isContained)return nil;
-    return self.button;
-}
+//- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
+//    
+//    BOOL isContained = [self pointInside:point withEvent:event];
+//    if (self.hidden || self.alpha <= 0.1 || self.userInteractionEnabled == NO || !isContained)return nil;
+//    return self.button;
+//}
 
 @end

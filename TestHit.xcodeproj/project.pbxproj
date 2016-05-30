@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB4111EB1CFBBB69006D505E /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4111EA1CFBBB69006D505E /* Button.m */; };
 		CB87DE651CF9341900EF89B0 /* RightArrowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CB87DE641CF9341900EF89B0 /* RightArrowButton.m */; };
 		CB87DE671CF9343600EF89B0 /* RightArrowButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB87DE661CF9343600EF89B0 /* RightArrowButton.xib */; };
 		CBC4E6881CF7CA8C00B9D6AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC4E6871CF7CA8C00B9D6AA /* main.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB4111E91CFBBB69006D505E /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		CB4111EA1CFBBB69006D505E /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
 		CB87DE631CF9341900EF89B0 /* RightArrowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightArrowButton.h; sourceTree = "<group>"; };
 		CB87DE641CF9341900EF89B0 /* RightArrowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightArrowButton.m; sourceTree = "<group>"; };
 		CB87DE661CF9343600EF89B0 /* RightArrowButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightArrowButton.xib; sourceTree = "<group>"; };
@@ -118,6 +121,8 @@
 				CB87DE631CF9341900EF89B0 /* RightArrowButton.h */,
 				CB87DE641CF9341900EF89B0 /* RightArrowButton.m */,
 				CB87DE661CF9343600EF89B0 /* RightArrowButton.xib */,
+				CB4111E91CFBBB69006D505E /* Button.h */,
+				CB4111EA1CFBBB69006D505E /* Button.m */,
 			);
 			path = TestHit;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 			files = (
 				CBC4E68E1CF7CA8D00B9D6AA /* ViewController.m in Sources */,
 				CBC4E68B1CF7CA8D00B9D6AA /* AppDelegate.m in Sources */,
+				CB4111EB1CFBBB69006D505E /* Button.m in Sources */,
 				CB87DE651CF9341900EF89B0 /* RightArrowButton.m in Sources */,
 				CBC4E6881CF7CA8C00B9D6AA /* main.m in Sources */,
 			);
